@@ -1,7 +1,7 @@
 import pygame
 import time
 import ctypes
-from sensor import sensor_init, read_sensor
+from lab3.sensor import sensor_init, read_sensor
 
 vl, dev = sensor_init()
 pygame.init()
